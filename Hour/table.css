@@ -1,0 +1,42 @@
+table{
+    border-collapse: collapse;
+    padding: 15px;
+    width: 100%;
+    margin: auto;
+
+}
+
+@media print {
+    @page {
+      margin-left: 0.8in;
+      margin-right: 0.8in;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+ }
+ 
+
+ table th{
+    padding-top: 12px;
+  padding-bottom: 12px;
+  
+  background-color: grey;
+  color: white;
+}
+
+
+
+table th td{
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+table td{
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+table th{
+    padding: 20px;
+}
